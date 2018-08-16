@@ -4,7 +4,7 @@
 fullnameOverride: newprojfordevopsaks
 replicaCount: 1
 image:
-  repository: myuniqueregistry.azurecr.io/pulavartiaparna/devopswithazurekubernetes
+  repository: aparnacontainerregistry.azurecr.io/pulavartiaparna/devopswithazurekubernetes
   tag: stable
   pullPolicy: IfNotPresent
 imagePullSecrets: 
