@@ -4,9 +4,9 @@ EXPOSE 80
 
 FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /src
-COPY ["Newprojfordevopsaks/Newprojfordevopsaks.csproj", "Newprojfordevopsaks/"]
+COPY ["./Newprojfordevopsaks.csproj", "Newprojfordevopsaks/"]
 
-RUN dotnet restore "$PROJECT_DIR/Newprojfordevopsaks.csproj"
+RUN dotnet restore Newprojfordevopsaks.csproj
 COPY . .
 WORKDIR "/src/Newprojfordevopsaks"
 RUN dotnet build "Newprojfordevopsaks.csproj" -c Release -o /app
