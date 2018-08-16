@@ -6,9 +6,9 @@ FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /src
 COPY ["Newprojfordevopsaks.csproj", "Newprojfordevopsaks/"]
 
-RUN dotnet restore Newprojfordevopsaks.csproj
+RUN dotnet restore Newprojfordevopsaks/Newprojfordevopsaks.csproj
 COPY . .
-WORKDIR "/src/Newprojfordevopsaks"
+WORKDIR "/src"
 RUN dotnet build "Newprojfordevopsaks.csproj" -c Release -o /app
 
 FROM build AS publish
