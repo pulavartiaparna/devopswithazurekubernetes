@@ -1,0 +1,3 @@
+c:\users\administrator\source\repos\Newprojfordevopsaks\Newprojfordevopsaks\obj\Debug\netcoreapp2.0\Newprojfordevopsaks.csproj.CoreCompileInputs.cache
+c:\users\administrator\source\repos\Newprojfordevopsaks\Newprojfordevopsaks\obj\Debug\netcoreapp2.0\Newprojfordevopsaks.AssemblyInfoInputs.cache
+c:\users\administrator\source\repos\Newprojfordevopsaks\Newprojfordevopsaks\obj\Debug\netcoreapp2.0\Newprojfordevopsaks.AssemblyInfo.cs
